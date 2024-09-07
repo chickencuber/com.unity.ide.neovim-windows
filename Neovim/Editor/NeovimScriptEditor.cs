@@ -18,7 +18,7 @@ namespace Packages.Neovim.Editor
 		private static IGenerator projectGeneration;
         
         private const string PackageName = "com.unity.ide.neovim";
-        private const string NeovimLauncher = "run.sh";
+        private const string NeovimLauncher = "run.bat";
 
         private static string launcherPath;
 
