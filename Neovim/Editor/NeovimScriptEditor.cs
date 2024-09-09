@@ -17,7 +17,7 @@ namespace Packages.Neovim.Editor
 
 		private static IGenerator projectGeneration;
         
-        private const string PackageName = "com.unity.ide.neovim";
+        private const string PackageName = "com.unity.ide.neovim-windows";
         private const string NeovimLauncher = "run.bat";
 
         private static string launcherPath;
@@ -100,10 +100,9 @@ namespace Packages.Neovim.Editor
 		    {
                 return false;
 		    }
-
             ProcessStartInfo startInfo = new ProcessStartInfo
             {
-              Arguments = $"\"+normal {line}G{column}|\" {path}",
+              Arguments = $"\"{path}\"",
               FileName = launcherPath,
               UseShellExecute = false,
               RedirectStandardOutput = true,
