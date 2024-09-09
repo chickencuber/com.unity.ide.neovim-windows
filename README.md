@@ -1,12 +1,14 @@
 # Neovim in Unity
 
+for some reason I cant get cspoj files generation working on windows
+
 This package provides integration of neovim as an external editor in Unity.
 
 ## Installation
 
 ### Clone this repo
 
-``git clone https://github.com/the-argus/com.unity.ide.neovim.git``
+``git clone https://github.com/the-argus/com.unity.ide.neovim-windows.git``
 
 ### Install the package
 
